@@ -5,7 +5,6 @@ import numpy
 import base64
 import time
 from datetime import datetime
-import cv2
 import pyrealsense2 as rs
 
 class ClientSocket:
@@ -30,7 +29,8 @@ class ClientSocket:
                 sys.exit()
             print(u'%d times try to connect with server'%(self.connectCount))
             self.connectServer()
-
+	
+    
     def sendImages(self):
         cnt = 0
         pipeline = rs.pipeline()
@@ -53,6 +53,7 @@ class ClientSocket:
                 
                 encode_param=[int(cv2.IMWRITE_JPEG_QUALITY),90]
                 color_image = numpy.asanyarray(color_frame.get_data())
+                
                 resize_color = cv2.resize(color_image, dsize=(480, 315), interpolation=cv2.INTER_AREA)
                 result, colorencode = cv2.imencode('.jpg', resize_color, encode_param)
                 colordata = numpy.array(colorencode)
