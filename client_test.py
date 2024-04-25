@@ -16,4 +16,4 @@ def send_message(ip, port, message):
         sock.close()
 
 if __name__ == '__main__':
-    send_message('192.168.1.14', 12345, 'Hello, my name is Terry!')  # Destination IP, port, and message
+    send_message('172.27.125.11', 12345, 'Hello, my name is Terry!')  # Destination IP, port, and message
