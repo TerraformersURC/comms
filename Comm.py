@@ -38,14 +38,14 @@ class Comm:
     def receive(self):
         if self.mode == 'client':
             try:
-                data = self.sock.recv(1024 * 1024)  # Buffer size can be adjusted
+                data = self.sock.recv(1000*1000*255*3)  # Buffer size can be adjusted
                 return data
             except socket.error as err:
                 print(f'Error receiving data: {err}')
                 self.sock.close()
         elif self.mode == 'server':
             try:
-                data = self.conn.recv(1024 * 1024)  # Buffer size can be adjusted
+                data = self.conn.recv(1000*1000*255*3)  # Buffer size can be adjusted
                 return data
             except socket.error as err:
                 print(f'Error receiving data: {err}')
