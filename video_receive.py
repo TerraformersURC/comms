@@ -2,7 +2,7 @@ from Comm import Comm
 import cv2
 
 # Initialize communication
-comm = Comm('0.0.0.0', 12345)  # Bind to all IP addresses available on the local machine
+comm = Comm('192.168.1.10', 12345)  # Bind to all IP addresses available on the local machine
 
 try:
     while True:

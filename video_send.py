@@ -10,7 +10,7 @@ config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
 pipeline.start(config)
 
 # Initialize communication
-comm = Comm('receiver_ip', 12345)  # Use the receiver's IP address and port
+comm = Comm('192.168.1.10', 12345)  # Use the receiver's IP address and port
 
 try:
     while True:
