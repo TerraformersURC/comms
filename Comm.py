@@ -53,7 +53,7 @@ class Comm:
 
     def send_video(self, frame):
         try:
-            compressed_frame = zlib.compress(pickle.dumps(frame))
+            compressed_frame = pickle.dumps(frame)
             self.send(compressed_frame)
         except Exception as e:
             print(f"Failed to send video frame: {e}")
@@ -62,7 +62,7 @@ class Comm:
         try:
             compressed_frame = self.receive()
             if compressed_frame:
-                frame = pickle.loads(zlib.decompress(compressed_frame))
+                frame = pickle.loads(compressed_frame)
                 return frame
         except Exception as e:
             print(f"Failed to receive video frame: {e}")

@@ -36,4 +36,4 @@ def start_camera_stream(ip, port):
         comm.close()
 
 if __name__ == '__main__':
-    start_camera_stream('receiver_ip', 12345)  # Enter the receiver's IP and the port number
+    start_camera_stream('192.168.1.10', 12345)  # Enter the receiver's IP and the port number
