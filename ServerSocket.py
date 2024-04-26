@@ -33,18 +33,20 @@ class ServerSocket:
         cnt = 0
         try:
             while True:
-                length = self.recvall(self.conn, 64)
-                length1 = length.decode('utf-8')
-                print(length1)
-                stringData = self.recvall(self.conn, int(length1))
+                lengthcolor = (self.recvall(self.conn, 64)).decode('utf-8')
+                stringcolor = self.recvall(self.conn, int(lengthcolor))
+                lengthdepth = (self.recvall(self.conn, 64)).decode('utf-8')
+                stringdepth = self.recvall(self.conn, int(lengthdepth))
                 stime = self.recvall(self.conn, 64)
                 print('send time: ' + stime.decode('utf-8'))
-                #now = time.localtime()
-                #print('receive time: ' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S.%f'))
-                data = numpy.frombuffer(base64.b64decode(stringData), numpy.uint8)
-                decimg = cv2.imdecode(data, 1)
-                #cv2.imwrite('decoded_' + cnt + '.jpg', decimg)
-                cv2.imshow("image", decimg)
+                now = time.localtime()
+                print('receive time: ' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S.%f'))
+                
+                colordata = numpy.frombuffer(base64.b64decode(stringcolor), numpy.uint8)
+                deccolor = cv2.imdecode(colordata, 1)
+                depthdata = numpy.frombuffer(base64.b64decode(stringdepth), numpy.uint8)
+                decdepth = cv2.imdecode(depthdata, 1)
+                cv2.imshow('RealSense', numpy.hstack((deccolor, decdepth)))
                 cv2.waitKey(1)
 
         except Exception as e:
