@@ -4,7 +4,7 @@ import socket
 import numpy
 import base64
 import time
-import datetime
+from datetime import datetime
 import cv2
 import pyrealsense2 as rs
 
@@ -30,20 +30,23 @@ class ServerSocket:
         print(u'Server socket [ TCP_IP: ' + self.TCP_IP + ', TCP_PORT: ' + str(self.TCP_PORT) + ' ] is connected with client')
 
     def receiveImages(self):
-
+        cnt = 0
         try:
             while True:
                 length = self.recvall(self.conn, 64)
                 length1 = length.decode('utf-8')
+                print(length1)
                 stringData = self.recvall(self.conn, int(length1))
                 stime = self.recvall(self.conn, 64)
                 print('send time: ' + stime.decode('utf-8'))
-                now = time.localtime()
-                print('receive time: ' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S.%f'))
+                #now = time.localtime()
+                #print('receive time: ' + datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S.%f'))
                 data = numpy.frombuffer(base64.b64decode(stringData), numpy.uint8)
                 decimg = cv2.imdecode(data, 1)
+                #cv2.imwrite('decoded_' + cnt + '.jpg', decimg)
                 cv2.imshow("image", decimg)
                 cv2.waitKey(1)
+
         except Exception as e:
             print(e)
             self.socketClose()
