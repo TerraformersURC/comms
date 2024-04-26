@@ -27,4 +27,4 @@ def start_server(ip, port):
         connection.close()
 
 if __name__ == '__main__':
-    start_server('192.168.1.10', 12345)  # Listening IP and port
+    start_server('192.168.1.14', 12346)  # Listening IP and port
