@@ -1,13 +1,3 @@
-import sys
-import threading
-import socket
-import numpy
-import base64
-import time
-import datetime
-import cv2
-import pyrealsense2 as rs
-
 class ClientSocket:
     def __init__(self, ip, port):
         self.TCP_SERVER_IP = ip
@@ -33,22 +23,17 @@ class ClientSocket:
 
     def sendImages(self):
         cnt = 0
-        pipeline = rs.pipeline()
-        config = rs.config()
-        config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
-
-        pipeline.start(config)
-        while True:
-            try:
-                frames = pipeline.wait_for_frames()
-                color_frame = frames.get_color_frame()
-                frame = numpy.asanyarray(color_frame.get_data())
-
+        capture = cv2.VideoCapture(0)
+        capture.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
+        capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 315)
+        try:
+            while capture.isOpened():
+                ret, frame = capture.read()
                 resize_frame = cv2.resize(frame, dsize=(480, 315), interpolation=cv2.INTER_AREA)
-                
+
                 now = time.localtime()
                 stime = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S.%f')
-                
+
                 encode_param=[int(cv2.IMWRITE_JPEG_QUALITY),90]
                 result, imgencode = cv2.imencode('.jpg', resize_frame, encode_param)
                 data = numpy.array(imgencode)
@@ -60,22 +45,16 @@ class ClientSocket:
                 print(u'send images %d'%(cnt))
                 cnt+=1
                 time.sleep(0.095)
-                
-            except Exception as e:
-                print(e)
-                self.sock.close()
-                time.sleep(1)
-                self.connectServer()
-                self.sendImages()
+        except Exception as e:
+            print(e)
+            self.sock.close()
+            time.sleep(1)
+            self.connectServer()
+            self.sendImages()
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python ClientSocket.py <TCP_IP> <TCP_PORT>")
-        sys.exit(1)
-
-    TCP_IP = sys.argv[1]
-    TCP_PORT = int(sys.argv[2])
-
+    TCP_IP = 'localhost'
+    TCP_PORT = 8080
     client = ClientSocket(TCP_IP, TCP_PORT)
 
 if __name__ == "__main__":

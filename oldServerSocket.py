@@ -19,7 +19,7 @@ class ServerSocket:
 
     def socketClose(self):
         self.sock.close()
-        print(u'Server socket [ TCP_IP: ' + self.TCP_IP + ', TCP_PORT: ' + str(self.TCP_PORT) + ' ] is closed')
+        print(u'Server socket [ TCP_IP: ' + self.TCP_IP + ', TCP_PORT: ' + str(self.TCP_PORT) + ' ] is close')
 
     def socketOpen(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -62,14 +62,7 @@ class ServerSocket:
         return buf
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python ServerSocket.py <TCP_IP> <TCP_PORT>")
-        sys.exit(1)
-
-    TCP_IP = sys.argv[1]
-    TCP_PORT = int(sys.argv[2])
-
-    server = ServerSocket(TCP_IP, TCP_PORT)
+    server = ServerSocket('localhost', 8080)
 
 if __name__ == "__main__":
     main()
