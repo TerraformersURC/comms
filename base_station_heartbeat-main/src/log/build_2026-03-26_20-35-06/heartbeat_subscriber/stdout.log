@@ -1,0 +1,18 @@
+[100%] Built target heartbeat_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/heartbeat_subscriber/heartbeat_subscriber
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/ament_index/resource_index/package_run_dependencies/heartbeat_subscriber
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/ament_index/resource_index/parent_prefix_path/heartbeat_subscriber
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/path.sh
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/path.dsv
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.bash
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.sh
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.zsh
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.dsv
+-- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.dsv
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/ament_index/resource_index/packages/heartbeat_subscriber
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/cmake/heartbeat_subscriberConfig.cmake
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/cmake/heartbeat_subscriberConfig-version.cmake
+-- Up-to-date: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.xml

@@ -1,0 +1,48 @@
+[0.020s] Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber
+[0.121s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.838s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.921s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.951s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.196s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.209s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.389s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.565s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.586s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.890s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.891s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber/include>
+[1.891s] -- Configured cppcheck exclude dirs and/or files: 
+[1.892s] -- Added test 'lint_cmake' to check CMake code style
+[1.894s] -- Added test 'uncrustify' to check C / C++ code style
+[1.895s] -- Configured uncrustify additional arguments: 
+[1.898s] -- Added test 'xmllint' to check XML markup files
+[1.899s] -- Configuring done (1.8s)
+[1.922s] -- Generating done (0.0s)
+[1.934s] -- Build files have been written to: /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber
+[1.980s] Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber
+[1.990s] Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber -- -j2 -l2
+[2.489s] [ 50%] [32mBuilding CXX object CMakeFiles/heartbeat_subscriber.dir/src/heartbeat_subscriber.cpp.o[0m
+[21.316s] [100%] [32m[1mLinking CXX executable heartbeat_subscriber[0m
+[22.016s] [100%] Built target heartbeat_subscriber
+[22.066s] Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber -- -j2 -l2
+[22.066s] Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber
+[22.086s] -- Install configuration: ""
+[22.088s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/heartbeat_subscriber/heartbeat_subscriber
+[22.098s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/heartbeat_subscriber/heartbeat_subscriber" to ""
+[22.103s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/ament_index/resource_index/package_run_dependencies/heartbeat_subscriber
+[22.104s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/ament_index/resource_index/parent_prefix_path/heartbeat_subscriber
+[22.106s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/ament_prefix_path.sh
+[22.107s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/ament_prefix_path.dsv
+[22.108s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/path.sh
+[22.109s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/environment/path.dsv
+[22.110s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.bash
+[22.111s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.sh
+[22.114s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.zsh
+[22.114s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/local_setup.dsv
+[22.114s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.dsv
+[22.115s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/ament_index/resource_index/packages/heartbeat_subscriber
+[22.115s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/cmake/heartbeat_subscriberConfig.cmake
+[22.115s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/cmake/heartbeat_subscriberConfig-version.cmake
+[22.116s] -- Installing: /home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.xml
+[22.123s] Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber

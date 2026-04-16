@@ -1,0 +1,25 @@
+[0.025s] Invoking command in '/home/vboxuser/base_station_heartbeat/build/heartbeat_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/build/heartbeat_publisher -- -j2 -l2
+[0.134s] [ 50%] [32mBuilding CXX object CMakeFiles/heartbeat_publisher.dir/src/heartbeat_publisher.cpp.o[0m
+[4.893s] [100%] [32m[1mLinking CXX executable heartbeat_publisher[0m
+[5.161s] [100%] Built target heartbeat_publisher
+[5.178s] Invoked command in '/home/vboxuser/base_station_heartbeat/build/heartbeat_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/build/heartbeat_publisher -- -j2 -l2
+[5.218s] Invoking command in '/home/vboxuser/base_station_heartbeat/build/heartbeat_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/build/heartbeat_publisher
+[5.223s] -- Install configuration: ""
+[5.223s] -- Installing: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/lib/$(PROJECT_NAME)/heartbeat_publisher
+[5.225s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/lib/$(PROJECT_NAME)/heartbeat_publisher" to ""
+[5.227s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/ament_index/resource_index/package_run_dependencies/heartbeat_publisher
+[5.227s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/ament_index/resource_index/parent_prefix_path/heartbeat_publisher
+[5.227s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/environment/ament_prefix_path.sh
+[5.227s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/environment/ament_prefix_path.dsv
+[5.227s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/environment/path.sh
+[5.228s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/environment/path.dsv
+[5.228s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/local_setup.bash
+[5.228s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/local_setup.sh
+[5.228s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/local_setup.zsh
+[5.228s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/local_setup.dsv
+[5.228s] -- Installing: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/package.dsv
+[5.230s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/ament_index/resource_index/packages/heartbeat_publisher
+[5.231s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/cmake/heartbeat_publisherConfig.cmake
+[5.231s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/cmake/heartbeat_publisherConfig-version.cmake
+[5.231s] -- Up-to-date: /home/vboxuser/base_station_heartbeat/install/heartbeat_publisher/share/heartbeat_publisher/package.xml
+[5.231s] Invoked command in '/home/vboxuser/base_station_heartbeat/build/heartbeat_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/build/heartbeat_publisher

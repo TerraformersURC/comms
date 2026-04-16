@@ -1,0 +1,5 @@
+CompileFlags:
+  Add: [-I/opt/ros/jazzy/include, -std=c++17]
+  CompilationDatabase: "build/heartbeat_publisher" # Or your specific package build path
+Index:
+  Background: Build

@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/vboxuser/base_station_heartbeat/src/heartbeat_publisher",
+
+    "clangd.arguments": [
+    "--compile-commands-dir=build/heartbeat_publisher",
+    "--background-index",
+    "--header-insertion=never"
+]
+}

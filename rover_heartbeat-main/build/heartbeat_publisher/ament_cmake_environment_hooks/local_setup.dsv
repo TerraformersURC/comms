@@ -1,0 +1,2 @@
+source;share/heartbeat_publisher/environment/ament_prefix_path.sh
+source;share/heartbeat_publisher/environment/path.sh

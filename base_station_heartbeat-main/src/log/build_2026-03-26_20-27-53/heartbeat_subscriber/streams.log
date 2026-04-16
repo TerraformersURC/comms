@@ -1,0 +1,36 @@
+[0.054s] Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber
+[0.117s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.776s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.836s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.855s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.023s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.053s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.461s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.499s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.673s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber/include>
+[1.674s] -- Configured cppcheck exclude dirs and/or files: 
+[1.675s] -- Added test 'lint_cmake' to check CMake code style
+[1.677s] -- Added test 'uncrustify' to check C / C++ code style
+[1.678s] -- Configured uncrustify additional arguments: 
+[1.679s] -- Added test 'xmllint' to check XML markup files
+[1.682s] -- Configuring done (1.6s)
+[1.698s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[1.698s]   Cannot find source file:
+[1.698s] 
+[1.698s]     src/heatbeat_subscriber.cpp
+[1.698s] 
+[1.698s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.698s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.698s]   .f95 .f03 .hip .ispc
+[1.698s] 
+[1.698s] [0m
+[1.704s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[1.704s]   No SOURCES given to target: heartbeat_subscriber
+[1.704s] 
+[1.704s] [0m
+[1.704s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.724s] Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber

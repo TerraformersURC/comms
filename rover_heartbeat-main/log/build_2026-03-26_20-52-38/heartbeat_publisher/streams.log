@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/vboxuser/rover_heartbeat/src/build/heartbeat_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/rover_heartbeat/src/rover_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/vboxuser/rover_heartbeat/src/install/heartbeat_publisher
+[0.181s] -- The C compiler identification is GNU 13.3.0
+[0.406s] -- The CXX compiler identification is GNU 13.3.0
+[0.481s] -- Detecting C compiler ABI info
+[0.896s] -- Detecting C compiler ABI info - done
+[0.963s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.964s] -- Detecting C compile features
+[0.965s] -- Detecting C compile features - done
+[1.000s] -- Detecting CXX compiler ABI info
+[1.436s] -- Detecting CXX compiler ABI info - done
+[1.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.451s] -- Detecting CXX compile features
+[1.453s] -- Detecting CXX compile features - done
+[1.469s] -- Configuring incomplete, errors occurred!
+[1.476s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.476s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.476s]   has asked CMake to find a package configuration file provided by
+[1.476s]   "ament_cmake", but CMake did not find one.
+[1.476s] 
+[1.476s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.476s]   any of the following names:
+[1.476s] 
+[1.476s]     ament_cmakeConfig.cmake
+[1.476s]     ament_cmake-config.cmake
+[1.476s] 
+[1.477s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.477s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.477s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.477s]   has been installed.
+[1.477s] 
+[1.477s] [0m
+[1.504s] Invoked command in '/home/vboxuser/rover_heartbeat/src/build/heartbeat_publisher' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/rover_heartbeat/src/rover_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/vboxuser/rover_heartbeat/src/install/heartbeat_publisher

@@ -1,0 +1,192 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.180s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x727b0c66faa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x727b0c66f710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x727b0c66f710>>, mixin_verb=('build',))
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.247s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/base_station_heartbeat/src'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_publisher) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'heartbeat_publisher' with type 'ros.ament_cmake' and name 'heartbeat_publisher'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(heartbeat_subscriber) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'heartbeat_subscriber' with type 'ros.ament_cmake' and name 'heartbeat_subscriber'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vboxuser/base_station_heartbeat/src/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vboxuser/base_station_heartbeat/install
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'heartbeat_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher', 'merge_install': False, 'path': '/home/vboxuser/base_station_heartbeat/src/heartbeat_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'heartbeat_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'heartbeat_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber', 'merge_install': False, 'path': '/home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.407s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/base_station_heartbeat/src/heartbeat_publisher' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/base_station_heartbeat/src/heartbeat_publisher'
+[0.416s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/base_station_heartbeat/src/heartbeat_subscriber'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher -- -j2 -l2
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber -- -j2 -l2
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher -- -j2 -l2
+[1.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher
+[1.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heartbeat_publisher)
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher' for CMake module files
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher' for CMake config files
+[1.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('heartbeat_publisher', 'cmake_prefix_path')
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/hook/cmake_prefix_path.ps1'
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/hook/cmake_prefix_path.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/hook/cmake_prefix_path.sh'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/lib'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/bin'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/lib/pkgconfig/heartbeat_publisher.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/lib/python3.12/site-packages'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/bin'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.dsv'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.sh'
+[1.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.bash'
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.zsh'
+[2.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/colcon-core/packages/heartbeat_publisher)
+[2.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heartbeat_publisher)
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher' for CMake module files
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher' for CMake config files
+[2.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('heartbeat_publisher', 'cmake_prefix_path')
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/hook/cmake_prefix_path.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/hook/cmake_prefix_path.dsv'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/hook/cmake_prefix_path.sh'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/lib'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/lib/pkgconfig/heartbeat_publisher.pc'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/lib/python3.12/site-packages'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/bin'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.ps1'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.sh'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.bash'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/heartbeat_publisher/package.zsh'
+[2.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/base_station_heartbeat/src/install/heartbeat_publisher/share/colcon-core/packages/heartbeat_publisher)
+[22.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber -- -j2 -l2
+[22.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber
+[22.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heartbeat_subscriber)
+[22.329s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber' for CMake module files
+[22.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/base_station_heartbeat/src/build/heartbeat_subscriber
+[22.344s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber' for CMake config files
+[22.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('heartbeat_subscriber', 'cmake_prefix_path')
+[22.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/hook/cmake_prefix_path.ps1'
+[22.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/hook/cmake_prefix_path.dsv'
+[22.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/hook/cmake_prefix_path.sh'
+[22.351s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib'
+[22.351s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/bin'
+[22.352s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/pkgconfig/heartbeat_subscriber.pc'
+[22.352s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/python3.12/site-packages'
+[22.352s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/bin'
+[22.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.ps1'
+[22.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.dsv'
+[22.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.sh'
+[22.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.bash'
+[22.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.zsh'
+[22.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/colcon-core/packages/heartbeat_subscriber)
+[22.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heartbeat_subscriber)
+[22.362s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber' for CMake module files
+[22.363s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber' for CMake config files
+[22.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('heartbeat_subscriber', 'cmake_prefix_path')
+[22.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/hook/cmake_prefix_path.ps1'
+[22.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/hook/cmake_prefix_path.dsv'
+[22.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/hook/cmake_prefix_path.sh'
+[22.367s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib'
+[22.368s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/bin'
+[22.368s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/pkgconfig/heartbeat_subscriber.pc'
+[22.368s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/lib/python3.12/site-packages'
+[22.368s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/bin'
+[22.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.ps1'
+[22.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.dsv'
+[22.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.sh'
+[22.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.bash'
+[22.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/heartbeat_subscriber/package.zsh'
+[22.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/base_station_heartbeat/src/install/heartbeat_subscriber/share/colcon-core/packages/heartbeat_subscriber)
+[22.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.384s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.396s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.515s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/base_station_heartbeat/src/install/local_setup.ps1'
+[22.520s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/base_station_heartbeat/src/install/_local_setup_util_ps1.py'
+[22.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/base_station_heartbeat/src/install/setup.ps1'
+[22.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/base_station_heartbeat/src/install/local_setup.sh'
+[22.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/base_station_heartbeat/src/install/_local_setup_util_sh.py'
+[22.534s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/base_station_heartbeat/src/install/setup.sh'
+[22.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/base_station_heartbeat/src/install/local_setup.bash'
+[22.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/base_station_heartbeat/src/install/setup.bash'
+[22.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/base_station_heartbeat/src/install/local_setup.zsh'
+[22.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/base_station_heartbeat/src/install/setup.zsh'
