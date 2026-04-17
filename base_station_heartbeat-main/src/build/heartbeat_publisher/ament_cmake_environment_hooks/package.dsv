@@ -1,4 +1,0 @@
-source;share/heartbeat_publisher/local_setup.bash
-source;share/heartbeat_publisher/local_setup.dsv
-source;share/heartbeat_publisher/local_setup.sh
-source;share/heartbeat_publisher/local_setup.zsh

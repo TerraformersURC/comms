@@ -1,4 +1,0 @@
-[0.052s] Invoking command in '/home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/base_station_heartbeat/src/build/heartbeat_publisher -- -j2 -l2
-[0.431s] [ 50%] [32mBuilding CXX object CMakeFiles/heartbeat_publisher.dir/src/heartbeat_publisher.cpp.o[0m
-[12.131s] [100%] [32m[1mLinking CXX executable heartbeat_publisher[0m
-[12.411s] [100%] Built target heartbeat_publisher
